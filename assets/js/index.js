@@ -181,10 +181,10 @@ directionalLight.shadow.mapSize.width = 256;  // 默认512，增加为1024提高
 directionalLight.shadow.mapSize.height = 256; // 默认512，增加为1024提高分辨率
 
 // 设置阴影摄像机的视野范围
-directionalLight.shadow.camera.left = -10;
-directionalLight.shadow.camera.right = 10;
-directionalLight.shadow.camera.top = 10;
-directionalLight.shadow.camera.bottom = -10;
+directionalLight.shadow.camera.left = -20;
+directionalLight.shadow.camera.right = 20;
+directionalLight.shadow.camera.top = 20;
+directionalLight.shadow.camera.bottom = -20;
 // directionalLight.shadow.camera.near = 0.1;  // 设置近裁剪面
 // directionalLight.shadow.camera.far = 500;    // 设置远裁剪面
 
